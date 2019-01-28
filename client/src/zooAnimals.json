@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "animal_name": "Bat",
+    "image": "./images/bat.png",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "animal_name": "Fox",
+    "image": "./images/fox.png",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "animal_name": "Lion",
+    "image": "./images/bear.png",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "animal_name": "Bear",
+    "image": "./images/bear.png",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "animal_name": "Tiger",
+    "image": "./images/tiger.png",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "animal_name": "Rhino",
+    "image": "./images/rino.png",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "animal_name": "Walrus",
+    "image": "./images/walrus.png",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "animal_name": "Alpaca",
+    "image": "./images/alpaca.png",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "animal_name": "Penguin",
+    "image": "./images/penguin.png",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "animal_name": "Giraffe",
+    "image": "./images/giraffe.png",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "animal_name": "Elephant",
+    "image": "./images/elephant.png",
+    "completed": false
+  }
+]
