@@ -8,6 +8,7 @@ import Test from "./pages/test";
 import "./App.css";
 import Play from "./pages/play";
 import Progress from "./pages/progress";
+//import Loading from '',
 
 class App extends Component {
   render() {
