@@ -121,14 +121,6 @@ export class AnimalCard extends Component {
         guessLog: []
       });
     } else {
-      // Attempting to eliminate repeating key presses below, unsuccessfull so far
-      // const acc = 0;
-      // guessLog.forEach(el => {
-      //   if (el === key) {
-      //     acc++;
-      //   }
-      // })
-      // console.log(acc);
       guessLog.push(key); // adds incorrect letters to the letters arr and updates the h tag
       letters.push(key); // Addes all letters typed to an array of letters
       this.setState({ letters, barsVisible, guessLog });
