@@ -38,7 +38,9 @@ app.use(routes);
 db.sequelize.sync(syncOptions).then(() => {
   db.User.create({
     username: "asdf",
-    password: "asdf"
+    password: "asdf",
+    phone: "18008675309",
+    age: "14"
   }).then(console.log("user created"));
 });
 //       .then(() => {
