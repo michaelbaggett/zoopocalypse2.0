@@ -44,8 +44,10 @@ class StatusCard extends Component {
         ) : (
           <div className="card">
             <div className="animalstatus">
-              <div className="img-container" style={cardStyle}>
-                {this.routerImg()}
+              <div style={playerCardStyle}>
+                <div className="img-container" style={testImgStyle}>
+                  {this.routerImg()}
+                </div>
               </div>
               <div>Status: Caged</div>
             </div>
@@ -61,18 +63,28 @@ const imageStyle = {
   background: "#50D737"
 };
 const cardStyle = {
-  background: "white",
+  //background: "white",
   width: "175px",
   border: "solid 5px purple",
   borderRadius: "10px",
   textAlign: "center",
   marginLeft: "20px"
 };
-
-const wrapperStyle = {
-  display: "flex",
-  flexFlow: "row wrap",
-  justifyContent: "center"
+const playerCardStyle = {
+  position: "relative",
+  textAlign: "center",
+  border: "6px solid #7B5D94",
+  margin: "5px",
+  backgroundColor: "#156369",
+  borderRadius: "25px"
+};
+const testImgStyle = {
+  //height: "175px",
+  position: "relative",
+  background: "#50D737",
+  //border: "4px solid #444",
+  borderRadius: "15px",
+  width: "200px"
 };
 
 export default StatusCard;
