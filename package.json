@@ -2,7 +2,7 @@
   "name": "lulz",
   "version": "0.1.0",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": "npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev:server": "nodemon --exec babel-node server.js --ignore 'src/client/*'",
     "start:dev": "./node_modules/.bin/concurrently \"npm run start:dev:server\" \"npm run client\"",
