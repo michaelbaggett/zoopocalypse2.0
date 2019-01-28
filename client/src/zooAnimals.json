@@ -1,66 +1,150 @@
 [
   {
     "id": 1,
+    "animal_name": "Ant",
+    "image": "./images/ant.png",
+    "completed": false
+  },
+  {
+    "id": 2,
     "animal_name": "Bat",
     "image": "./images/bat.png",
     "completed": false
   },
   {
-    "id": 2,
+    "id": 3,
     "animal_name": "Fox",
     "image": "./images/fox.png",
     "completed": false
   },
   {
-    "id": 3,
-    "animal_name": "Lion",
-    "image": "./images/bear.png",
+    "id": 4,
+    "animal_name": "Yak",
+    "image": "./images/yak.png",
     "completed": false
   },
   {
-    "id": 4,
+    "id": 5,
+    "animal_name": "Owl",
+    "image": "./images/owl.png",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "animal_name": "Toad",
+    "image": "./images/toad.png",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "animal_name": "Crab",
+    "image": "./images/crab.png",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "animal_name": "Lion",
+    "image": "./images/lion.png",
+    "completed": false
+  },
+  {
+    "id": 9,
     "animal_name": "Bear",
     "image": "./images/bear.png",
     "completed": false
   },
   {
-    "id": 5,
-    "animal_name": "Tiger",
-    "image": "./images/tiger.png",
+    "id": 10,
+    "animal_name": "Bull",
+    "image": "./images/bull.png",
     "completed": false
   },
   {
-    "id": 6,
+    "id": 11,
+    "animal_name": "Panda",
+    "image": "./images/panda.png",
+    "completed": false
+  },
+  {
+    "id": 12,
+    "animal_name": "llama",
+    "image": "./images/llama.png",
+    "completed": false
+  },
+  {
+    "id": 13,
     "animal_name": "Rhino",
-    "image": "./images/rino.png",
+    "image": "./images/rhino.png",
     "completed": false
   },
   {
-    "id": 7,
+    "id": 14,
+    "animal_name": "Sloth",
+    "image": "./images/sloth.png",
+    "completed": false
+  },
+  {
+    "id": 15,
+    "animal_name": "Snake",
+    "image": "./images/snake.png",
+    "completed": false
+  },
+  {
+    "id": 16,
+    "animal_name": "Monkey",
+    "image": "./images/monkey.png",
+    "completed": false
+  },
+  {
+    "id": 17,
+    "animal_name": "Jaguar",
+    "image": "./images/jaguar.png",
+    "completed": false
+  },
+  {
+    "id": 18,
+    "animal_name": "Toucan",
+    "image": "./images/toucan.png",
+    "completed": false
+  },
+  {
+    "id": 19,
     "animal_name": "Walrus",
     "image": "./images/walrus.png",
     "completed": false
   },
   {
-    "id": 8,
-    "animal_name": "Alpaca",
-    "image": "./images/alpaca.png",
+    "id": 20,
+    "animal_name": "Beaver",
+    "image": "./images/beaver.png",
     "completed": false
   },
   {
-    "id": 9,
+    "id": 21,
     "animal_name": "Penguin",
     "image": "./images/penguin.png",
     "completed": false
   },
   {
-    "id": 10,
+    "id": 22,
+    "animal_name": "Gorilla",
+    "image": "./images/gorilla.png",
+    "completed": false
+  },
+  {
+    "id": 23,
+    "animal_name": "Cheetah",
+    "image": "./images/cheetah.png",
+    "completed": false
+  },
+  {
+    "id": 24,
     "animal_name": "Giraffe",
     "image": "./images/giraffe.png",
     "completed": false
   },
   {
-    "id": 11,
+    "id": 25,
     "animal_name": "Elephant",
     "image": "./images/elephant.png",
     "completed": false
