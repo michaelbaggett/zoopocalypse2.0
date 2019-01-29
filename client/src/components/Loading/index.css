@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+  }
+  /* Logo animation */
+  .App-logo {
+    animation: App-logo-spin infinite 1.5s linear; /* type is spin and speed is 1.5 secs*/
+    width: 80vmin;  /* Logo size*/
+    animation-timing-function: ease-out; /*makes it slowly stop*/
+    animation-iteration-count: 1; /* how many times it the animation runs */
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #282c34;
+  }
+  /* Sets the durration of the entire animation sequence */
+  .Header-text {
+    animation: fadeIn 3s; /* This sets the duration length of the entire fade sequence */
+  }
+  
+  .App-link {
+    color: #669999;
+    animation: fadeIn 3s; /* This sets the duration length of the entire fade sequence */
+  }
+  /* this is needed to make the animation work*/
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(1800deg);
+    }
+  }
+  @keyframes fadeIn { 
+      /* the fadeIn delay is set by adjusting the middle percentage in conjuction with the full sequence duration length above. */
+    0%{opacity:0} /* at 0% completion of sequence the opcacity is set to 0 = 0% visible */
+    30%{opacity: 0;}/* at 30% completion of sequence the opcacity is set to 0 = 0% visible  - the opacity starts the fade in at 30% sequence completion*/
+    100%{opacity:1}/* at 100% completion of sequence the opcacity is set to 1 = 100% visible - thus completeing the fade sequence*/
+  }
+
+ 
