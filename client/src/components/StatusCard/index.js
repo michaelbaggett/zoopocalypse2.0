@@ -17,6 +17,7 @@ class StatusCard extends Component {
           alt={this.props.name}
           src={this.props.image}
           onClick={() => {
+            console.log(this.props.name, this.props.image);
             history.push("/play/" + this.props.name);
           }}
         />
