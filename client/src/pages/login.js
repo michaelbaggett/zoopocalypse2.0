@@ -63,8 +63,9 @@ class LogIn extends Component {
     return (
       <div className="Site">
         {this.state.isAuth ? (
-          <Redirect to="/progress" />
+          <Redirect to="/login" />
         ) : (
+          //login card
           <div className="Site-content">
             {/* Header */}
             <div className="App-header">
