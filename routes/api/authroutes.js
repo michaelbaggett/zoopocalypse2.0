@@ -12,7 +12,7 @@ router.route("/login").post(passport.authenticate("local"), (req, res) => {
   const { username, password } = req.body;
   const loginMessage = client.messages
     .create({
-      to: "+14057613879",
+      to: this.user.phone,
       from: "+14054454072",
       body:
         "Your child has logged in to Zoopocalypse - watch out for the Elephant!!!"
@@ -51,7 +51,7 @@ router.route("/logout").get((req, res) => {
     resObj.success = true;
   }
   const logoutMessage = client.messages.create({
-    to: "+14057613879",
+    to: this.user.phone,
     from: "+14054454072",
     body: "Your child has logged out of Zoopocalypse - You're safe......For now"
   });
