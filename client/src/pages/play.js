@@ -5,6 +5,8 @@ import Footer from "../components/Footer";
 import AnimalCard from "../components/AnimalCard";
 import API from "../utils/API";
 import { Redirect } from "react-router";
+import { Link } from 'react-router-dom';
+import { relative } from "upath";
 
 class Play extends Component {
   // make an api request for which animal is being played
@@ -12,7 +14,7 @@ class Play extends Component {
   state = {
     name: window.location.pathname.split("/")[2].toLowerCase(),
     hint: "",
-    userLogInStatus: false
+    userLogInStatus: false,
   };
 
   //  Give this component a state with { loggedOut: false }
@@ -27,6 +29,8 @@ class Play extends Component {
       }
     });
   };
+  handleNextButton = () => {
+  }
 
   //need a componentwillmount to get user data
   //API.function()togetdata
@@ -45,10 +49,14 @@ class Play extends Component {
 
             {/* Main Game Card contents goes below: */}
             <div className="main">
-              <button onClick={this.userSignOut}> LOGOUT</button>
+              
               <AnimalCard animal={this.state.name} hint={this.state.hint} />
+            <div style={divStyle} >
+              <button style={logoutButtonStyle} onClick={this.userSignOut}>LOGOUT</button>
             </div>
 
+            </div>
+      
             {/* Footer */}
             <Footer />
           </div>
@@ -56,6 +64,17 @@ class Play extends Component {
       </div>
     );
   }
+}
+
+const divStyle = {
+  textAlign: "center",
+}
+const logoutButtonStyle = {
+  width: "100px",
+  hight: "30px",
+  marginTop: "20px",
+  backgroundColor: "orange",
+  color: "white",
 }
 
 export default Play;
