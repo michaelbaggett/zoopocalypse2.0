@@ -62,7 +62,7 @@ router.route("/logout").get((req, res) => {
     resObj.success = true;
   }
   const logoutMessage = client.messages.create({
-    to: "+18048393249",
+    to: "+14057613879",
     from: "+14054454072",
     body: "Your child has logged out of Zoopocalypse - You're safe......For now"
   });
