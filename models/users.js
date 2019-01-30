@@ -18,79 +18,79 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.INTEGER
     },
     ant_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     bat_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     fox_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     yak_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     owl_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     toad_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     crab_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     lion_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     bear_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     bull_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     panda_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     llama_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     rhino_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     sloth_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     snake_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     monkey_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     jaguar_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     toucan_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     walrus_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     beaver_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     penguin_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     gorilla_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     cheetah_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     giraffe_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     },
     elephant_completed: {
-      type: DataTypes.BOOL
+      type: DataTypes.BOOLEAN
     }
   });
 

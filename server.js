@@ -39,7 +39,7 @@ db.sequelize.sync(syncOptions).then(() => {
   db.User.create({
     username: "asdf",
     password: "asdf",
-    phone: "18008675309",
+    phone: "18048393249",
     age: "14"
   }).then(console.log("user created"));
 });

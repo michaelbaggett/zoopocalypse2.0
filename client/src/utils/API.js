@@ -12,5 +12,8 @@ export default {
   },
   completedStatus: function() {
     return axios.get("/api/completed");
+  },
+  phoneNumber: function(userCreds) {
+    return axios.get("/api/auth/phone", userCreds);
   }
 };
