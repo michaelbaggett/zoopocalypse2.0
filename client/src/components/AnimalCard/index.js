@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import bar from "../../images/cageBars.png";
+import { Link } from 'react-router-dom';
+import { ArgumentOutOfRangeError } from "rxjs";
 
 export class AnimalCard extends Component {
   constructor(props) {
@@ -16,7 +18,6 @@ export class AnimalCard extends Component {
       isComplete: false
     };
   }
-
   handleHintButton = event => {
     event.preventDefault();
     // Checks if the word is complete
@@ -109,7 +110,8 @@ export class AnimalCard extends Component {
         this.setState({
           message: "The " + this.props.animal + " is free, hurray!!!",
           isComplete: true,
-          hint: ""
+          hint: "",
+          background: "black",
         });
       }
       //   Adds to the posistion accumulator so that the index position will change each time this function is run
@@ -175,6 +177,8 @@ export class AnimalCard extends Component {
           <button style={buttonStyle} onClick={this.handleResetButton}>
             Reset
           </button>
+
+          <Link to="/progress"><button style={buttonStyle} >Back</button></Link>
 
           <div>
             <h3 style={messStyle}>{this.state.hint}</h3>
