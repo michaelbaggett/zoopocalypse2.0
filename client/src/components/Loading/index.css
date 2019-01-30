@@ -2,14 +2,14 @@
     text-align: center;
   } */
   /* Logo animation */
-  .App-logo {
+  .App-logo-landing {
     animation: App-logo-spin infinite 1.5s linear; /* type is spin and speed is 1.5 secs*/
     width: 80vmin;  /* Logo size*/
     animation-timing-function: ease-out; /*makes it slowly stop*/
     animation-iteration-count: 1; /* how many times it the animation runs */
   }
   
-  .App-header {
+  .App-header-landing {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
