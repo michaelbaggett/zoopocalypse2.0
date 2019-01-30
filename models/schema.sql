@@ -46,5 +46,30 @@ CREATE TABLE animals
   PRIMARY KEY
 		(id),
   UNIQUE KEY username
-		(username)
+		(username),
+	ant_completed BOOL,
+	bat_completed BOOL,
+	fox_completed BOOL,
+	yak_completed BOOL,
+	owl_completed BOOL,
+	toad_completed BOOL,
+	crab_completed BOOL,
+	lion_completed BOOL,
+	bear_completed BOOL,
+	bull_completed BOOL,
+	panda_completed BOOL,
+	llama_completed BOOL,
+	rhino_completed BOOL,
+	sloth_completed BOOL,
+	snake_completed BOOL,
+	monkey_completed BOOL,
+	jaguar_completed BOOL,
+	toucan_completed BOOL,
+	walrus_completed BOOL,
+	beaver_completed BOOL,
+	penguin_completed BOOL,
+	gorilla_completed BOOL,
+	cheetah_completed BOOL,
+	giraffe_completed BOOL,
+	elephant_completed BOOL
 )
