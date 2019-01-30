@@ -43,6 +43,10 @@ router.route("/signup").post((req, res) => {
     });
 });
 
+router.route("/completedStatus").get((req, res) => {
+  console.log("SUP");
+});
+
 router.route("/logout").get((req, res) => {
   console.log(req + "this is my /logout req");
   req.logout();

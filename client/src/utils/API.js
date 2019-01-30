@@ -10,7 +10,7 @@ export default {
   userSignOut: function() {
     return axios.get("/api/auth/logout");
   },
-  getAnimals: function() {
-    return axios.get("/api/animals");
+  completedStatus: function() {
+    return axios.get("/api/completed");
   }
 };

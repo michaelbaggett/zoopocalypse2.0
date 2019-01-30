@@ -13,6 +13,12 @@ class Progress extends Component {
             <Header />
           </div>
 
+          <div style={center}>
+            <button style={logoutButtonStyle} onClick={this.userSignOut}>
+              LOGOUT
+            </button>
+          </div>
+
           {/* Contents go below */}
           <div className="progress">
             <PlayerProgress />
@@ -25,5 +31,18 @@ class Progress extends Component {
     );
   }
 }
+
+const logoutButtonStyle = {
+  width: "100px",
+  hight: "30px",
+  marginTop: "20px",
+  backgroundColor: "orange",
+  color: "white"
+};
+
+const center = {
+  textAlign: "center",
+  marginBottom: "15px"
+};
 
 export default Progress;
