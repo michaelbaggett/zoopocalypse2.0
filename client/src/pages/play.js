@@ -38,7 +38,7 @@ class Play extends Component {
     return (
       <div className="Site">
         {this.state.userLogInStatus ? (
-          <Redirect to="/" />
+          <Redirect to="/login" />
         ) : (
           <div className="Site-content">
             {/* Header */}
