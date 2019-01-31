@@ -1,5 +1,7 @@
 # Zoopocalypse
 
+[Play the Game Here](http://zoopocalypse.herokuapp.com/)
+
 ### Inspiration:
 
 As parents of small children, some members of the team _(whom remain anonymous for political reasons and an unnatural propensity for leading zoo animals into various rebellious states)_ were inspired to create a children's spelling game about freeing zoo animals for an uprising apptly named "Zoopocalypes". The game utilizes visual memory to strengthen recall by asking the user to spell an animal type shown to them. When the spelling is correct, the animal's cage us unlocked. The object of the game is to free all the animals from the zoo because zoo's are mean and cruel...like prison... <br>
