@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import API from "../utils/API";
@@ -161,6 +161,7 @@ class LogIn extends Component {
                   >
                     SUBMIT
                   </button>
+                  <Link to="/progress"><button style={clickPlayStyle}>Click and Play</button></Link>
                 </form>
               </div>
             )}
@@ -187,8 +188,17 @@ const loginCardStyle = {
 
 const buttonStyle = {
   background: "#E96C64",
-  borderRadius: "5px",
+  borderTopLeftRadius: "5px",
+  borderBottomLeftRadius: "5px",
   borderColor: "#E96C64",
+  marginTop: "10px",
+  marginBottom: "10px"
+};
+const clickPlayStyle = {
+  background: "#F6E769",
+  borderTopRightRadius: "5px",
+  borderBottomRightRadius: "5px",
+  borderColor: "#F6E769",
   marginTop: "10px",
   marginBottom: "10px"
 };

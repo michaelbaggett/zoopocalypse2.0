@@ -12,7 +12,10 @@ export class Loading extends Component {
           <p class="Header-text">
            A playground for Word challenges.
           </p>
-          <Link to="/login"><button>Click and Play</button></Link>
+          <div>
+            <Link to="/login"><button style={buttonStyle}>Account?</button></Link>
+            <Link to="/progress"><button style={clickPlayStyle}>Click and Play</button></Link>
+          </div>
         </header>
      </div>
     )
@@ -20,3 +23,20 @@ export class Loading extends Component {
 }
 
 export default Loading;
+
+const buttonStyle = {
+  background: "#E96C64",
+  borderTopLeftRadius: "5px",
+  borderBottomLeftRadius: "5px",
+  borderColor: "#E96C64",
+  marginTop: "10px",
+  marginBottom: "10px"
+};
+const clickPlayStyle = {
+  background: "#F6E769",
+  borderTopRightRadius: "5px",
+  borderBottomRightRadius: "5px",
+  borderColor: "#F6E769",
+  marginTop: "10px",
+  marginBottom: "10px"
+};

@@ -169,6 +169,7 @@ export class AnimalCard extends Component {
             );
           })}
           <h1 style={correctLetterStyles}>{this.state.name}</h1>
+       
           <p style={guessesStyle}>Guesses [{this.state.guessLog}]</p>
 
           <button style={buttonStyle} onClick={this.handleHintButton}>
